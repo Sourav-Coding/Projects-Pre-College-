@@ -6,4 +6,5 @@ for i in range(n):
     for i in range(spin):
         print("Dice is Rolling .....")
     print("Your Number is :",rand)
+print("Thank You")
 
