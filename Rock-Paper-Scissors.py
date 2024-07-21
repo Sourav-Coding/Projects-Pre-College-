@@ -1,5 +1,6 @@
 import random
 words=["Paper","Rock","Scissors"]
+print("WELCOME TO ROCK PAPER & SCISSORS GAME")
 while True:
     comp=random.choice(words)
     ch=int(input("1:- Rock \n2:- Paper \n3:-Scissors \n4:- Exit \nEnter Your Choice :-"))
