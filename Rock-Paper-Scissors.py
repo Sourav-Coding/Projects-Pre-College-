@@ -8,33 +8,32 @@ while True:
         user="Rock"
         print("User =",user)
         print("Computer =",comp)
-        if (comp=="RocK"):
-            print("*****DRAW*****...*****Nobody Wins*****")
+        if (comp==user):
+            print("********************\n     DRAW\n********************\n\n********************\n     Nobody Wins\n********************")
         elif(comp=="Paper"):
-            print("*****Paper Wins*****...*****Computer Wins*****")
+            print("********************\n     Paper Wins\n********************\n\n********************\n     Computer Wins\n********************")
         elif(comp=="Scissors"):
-            print("*****Rock Wins*****...*****User Wins*****")
+            print("********************\n     Rock Wins\n********************\n\n********************\n     User Wins\n********************")
     elif (ch==2):
         user="Paper"
         print("User =",user)
         print("Computer =",comp)
-        if (comp=="Paper"):
-            print("*****DRAW*****...*****Nobody Wins*****")
+        if (comp==user):
+            print("********************\n     DRAW\n********************\n\n********************\n     Nobody Wins\n********************")
         elif(comp=="Rock"):
-            print("*****Paper Wins*****...*****User Wins*****")
+            print("********************\n     Paper Wins\n********************\n\n********************\n     User Wins\n********************")
         elif(comp=="Scissors"):
-            print("*****Scissors Wins*****...*****Computer Wins*****")
+            print("********************\n     Scissors Wins\n********************\n\n********************\n     Computer Wins\n********************")
     elif (ch==3):
         user="Scissors"
         print("User =",user)
         print("Computer =",comp)
         if (comp=="Scissors"):
-            print("*****DRAW*****...*****Nobody Wins*****")
+            print("********************\n     DRAW\n********************\n\n********************\n     Nobody Wins\n********************")
         elif(comp=="Paper"):
-            print("*****Scissors Wins*****...*****User Wins*****")
+            print("********************\n     Scissors Wins\n********************\n\n********************\n     User Wins\n********************")
         elif(comp=="Rock"):
-            print("*****Rock Wins*****...*****Computer Wins*****")
+            print("********************\n     Rock Wins\n********************\n\n********************\n     Computer Wins\n********************")
     elif (ch==4):
-        print("****THANK YOU FOR PLAYING****")
+        print("********************\nTHANK YOU FOR PLAYING\n********************\n\n")
         break
-
