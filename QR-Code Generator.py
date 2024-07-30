@@ -13,5 +13,7 @@ elif a==3:
     img=qr.make(num_)
     img.save("Number.png")
 print("The QR Code has been saved where this program is saved")
+print("THANK YOU")
+
 
 
